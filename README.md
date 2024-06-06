@@ -3,14 +3,14 @@ Pokémon Finder
 Description:
 Pokémon Finder is a simple web application that allows users to search for information about Pokémon using the PokéAPI. Users can search for Pokémon by name or ID, and the application will display various details about the Pokémon, including its name, ID, weight, height, and base stats. Users can also add Pokémon to their favorites list and view them later.
 
-Features:
+
 
 Search for Pokémon by name or ID
 View detailed information about the Pokémon, including name, ID, weight, height, and base stats
 Add Pokémon to favorites list
 View favorite Pokémon
-Technologies Used:
 
+Technologies Used:
 HTML
 CSS
 JavaScript
@@ -24,10 +24,10 @@ The application will display information about the Pokémon, including its name,
 Click the "Add to favorite" button to add the Pokémon to your favorites list.
 To view your favorite Pokémon, click the "Favorites" tab.
 To remove all favorite Pokémon, click the "Clear favorites" button.
-Note:
+
 
 The application uses the PokéAPI to fetch Pokémon data, so an internet connection is required.
 Favorite Pokémon are stored locally using the browser's LocalStorage feature, so they will persist even if you close the browser or refresh the page.
-Credits:
 
+Credits:
 Pokémon data provided by the PokéAPI (https://pokeapi.co/)
