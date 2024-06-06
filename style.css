@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+#container {
+  width: 40%;
+  height: min-content;
+  box-shadow: 3px 20px 3px 3px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container-int {
+  display: flex;
+  color: rgb(0, 0, 43);
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 90%;
+  border: 1px solid rgb(0, 0, 43);
+  height: min-content;
+}
+
+#section-seaerch {
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+
+#id,
+#cont-name {
+  display: flex;
+  color: rgb(0, 0, 43);
+  align-items: center;
+  flex-direction: row;
+}
+
+#status-quality {
+  width: 80%;
+  height: 40px;
+  border: 3px solid rgb(0, 0, 43);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#quality {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  color: rgb(0, 0, 43);
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+#cont-types {
+  display: flex;
+  color: rgb(0, 0, 43);
+  align-items: center;
+  flex-direction: column;
+}
+
+#cont-weight,
+#cont-height,
+#cont-hp,
+#cont-attack,
+#cont-defense,
+#cont-special-attack,
+#cont-special-defense,
+#cont-speed {
+  width: 90%;
+  height: 20px;
+  border: 2px solid rgb(0, 0, 43);
+  margin: 5px;
+  display: flex;
+  color: rgb(0, 0, 43);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-shadow: 1px 1px yellow;
+}
+
+#cont-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sprite {
+  width: 50%;
+  border: 2px solid rgb(0, 0, 43);
+  border-radius: 15px;
+  transition: 1s ease-in-out;
+  animation: imgPokemon 1s linear;
+}
+
+@keyframes imgPokemon {
+  from {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+}
+#Clear,
+#search-button,
+#addFavPokemon {
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 43);
+  border: none;
+  margin: 10px;
+}
+
+#container-fav-pokemon {
+  width: 40%;
+  height: 300px;
+  box-shadow: 3px 20px 3px 3px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+  body {
+    flex-direction: column;
+  }
+  #container-fav-pokemon {
+    margin-top: 50px;
+  }
+}
+
+#fav-pok {
+  width: 80%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fav {
+  color: rgb(0, 0, 43);
+  border-bottom: 2px solid yellow;
+}
